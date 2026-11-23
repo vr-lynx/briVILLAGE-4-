@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_nav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header_nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-nav_right{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav ul li{
+    list-style: none;
+    color: #1A3A27;
+    font-size: 18px;
+}
+.header_phonenumber{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_phonenumber a{
+    text-decoration: none;
+    color: #1A3A27;
+    font-size: 18px;
+}
+.header-nav_right button{
+    width: 190px;
+    height: 56px;
+    border-radius: 15px;
+    border: 1px solid #3B9254;
+    background-color: #3B9254;
+    color: white;
+    font-size: 16px;
+
+}
+.first_page{
+    width: 90%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./main-pic-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.main_title{
+    color: white;
+    width: 80%;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 180px;
+}
+.maintitle_text{
+    width: 60%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.maintitle_text h1{
+    font-size: 60px;
+    text-align: center;
+}
+.maintitle_text h2{
+    text-align: center;
+}
+.book_btn{
+    width: 40%;
+    height: 52%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.book_btn button{
+    width: 280px;
+    height: 62px;
+    border: 1px solid #3B9254;
+    border-radius: 15px;
+    background-color: #3B9254;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 120px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first_page button{
+    border: none;
+    border-radius: 20px;
+}
+.book_sec{
+    width: 90%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./Asset\ 1\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-color: #2E7B44;
+    margin-top: 45px;
+}
+.booksec_title{
+    width: 92%;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+.book_input{
+    width: 92%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.book_card{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mini_bookcard{
+    width: 155%;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.mini_bookcard img{
+    color: black;
+}
+.book_card button{
+    width: 190px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.book_card h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.book_card2{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.book_card2 h3{
+    width: 150%;
+    font-size: 16px;
+}
+.burger_menu{
+    display: none;
+}
+@media (width: 320px) {
+    header{
+        width: 100%;
+    }
+    .header_nav{
+        display: none;
+    }
+    .header-nav_right{
+        display: none;
+    }
+    .burger_menu{
+        display: flex;
+    }
+    .burger_menu button{
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background-color: #3B9254;
+    }
+    .logo{
+        width: 60vw;
+        height: 13vh;
+    }
+    .logo img{
+        width: 50vw;
+        height: 100%;
+    }
+    .first_page{
+        width: 95%;
+        height: 80vh;
+        margin-left: 5px;
+    }
+    .first_page button{
+        display: none;
+    }
+    .book_btn button{
+        display: flex;
+        width: 228px;
+        height: 30px;
+        font-size: 12px;
+        border-radius: 12px;
+        margin-top: 15px;
+    }
+    .main_title{
+        margin-top: 130px;
+        margin-bottom: 40px;
+    }
+    .maintitle_text{
+        width: 100%;
+        height: 100%;
+    }
+    .maintitle_text h1{
+        font-size: 48px;
+    }
+    .maintitle_text h2{
+        font-size: 18px;
+    }
+    .book_btn{
+        width: 100%;
+        height: 62%;
+    }
+}
